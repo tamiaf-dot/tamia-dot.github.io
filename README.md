@@ -61,8 +61,6 @@
 </head>
 <body>
 
-    <h1>My Favorite Rappers</h1>
-
     <div class="container">
 
         <!-- J. Cole -->
