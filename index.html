@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rappers I Like</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 50px;
+            font-size: 3em;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .artist {
+            margin-bottom: 50px;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            margin-top: 15px;
+            border-radius: 12px;
+        }
+
+        button {
+            background-color: #1db954;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1em;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #17a44b;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Favorite Rappers</h1>
+
+    <div class="container">
+
+        <!-- J. Cole Section -->
+        <div class="artist">
+            <h2>J. Cole</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/J._Cole_2018.jpg" alt="J. Cole">
+            <p>
+                J. Cole is known for his deep lyrics and storytelling. His music often talks about real-life struggles,
+                success, and personal growth. He’s one of the most respected artists in hip-hop.
+            </p>
+
+            <!-- Spotify Player -->
+            <iframe style="border-radius:12px" 
+                src="https://open.spotify.com/embed/track/2nMyVnPUJ4Se9c2g3R3Y7v" 
+                width="300" height="80" frameborder="0" allowfullscreen 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+        </div>
+
+        <!-- EBK Jaaybo Section -->
+        <div class="artist">
+            <h2>EBK Jaaybo</h2>
+            <img src="https://images.genius.com/placeholder-artist-image.png" alt="EBK Jaaybo">
+            <p>
+                EBK Jaaybo has a raw and energetic style. His music reflects street experiences and modern rap culture,
+                bringing a lot of intensity and emotion to his tracks.
+            </p>
+
+            <!-- Spotify Player -->
+            <iframe style="border-radius:12px" 
+                src="https://open.spotify.com/embed/track/5uEYRdEIh9Bo4fpjDd4Na9" 
+                width="300" height="80" frameborder="0" allowfullscreen 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+        </div>
+
+        <button onclick="alert('Keep listening to good music!')">
+            Click Me
+        </button>
+
+    </div>
+
+</body>
+</html>
